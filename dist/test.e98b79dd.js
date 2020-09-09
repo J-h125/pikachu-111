@@ -130,7 +130,7 @@ exports.default = _default;
 },{}],"test.js":[function(require,module,exports) {
 "use strict";
 
-var _css = _interopRequireDefault(require("./css"));
+var _css = _interopRequireDefault(require("./css.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -196,7 +196,7 @@ var player = {
   }
 };
 player.init();
-},{"./css":"css.js"}],"C:/Users/86180/AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./css.js":"css.js"}],"C:/Users/86180/AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
